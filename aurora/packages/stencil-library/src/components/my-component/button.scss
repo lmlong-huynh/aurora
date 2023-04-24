@@ -1,0 +1,35 @@
+/* Generic styles that apply to all Buttons */
+button {
+  align-items: center;
+  border-radius: 28px;
+  display: flex;
+  min-height: 38px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--primary-button-background-color);
+  border: 1px solid var(--primary-button-border-background-color);
+  color: var(--primary-button-base-color);
+
+  &:hover {
+    background-color: var(--primary-button-hover-background-color);
+    border: 1px solid var(--primary-button-hover-border-background-color);
+    color: var(--primary-button-hover-base-color);
+  }
+
+  &:active {
+    background-color: var(--primary-button-active-background-color);
+    border: 1px solid var(--primary-button-active-border-background-color);
+    color: var(--primary-button-active-base-color);
+  }
+
+  &:focus {
+    background-color: var(--primary-button-focus-background-color);
+    border: 1px solid var(--primary-button-focus-border-background-color);
+    color: var(--primary-button-focus-base-color);
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
+}

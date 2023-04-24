@@ -1,0 +1,26 @@
+/* Themes */
+:root {
+  --primary-color: #028655;
+  --secondary-color: #b4e0d1;
+  --warning-color: #ffbe83;
+  --success-color: #028655;
+  --danger-color: #bb1d1d;
+  --base-color: #aff0e5;
+
+  /* Button */
+  --primary-button-background-color: var(--primary-color);
+  --primary-button-border-color: var(--primary-color);
+  --primary-button-base-color: var(--base-color);
+
+  --primary-button-hover-background-color: #27ddbb;
+  --primary-button-hover-border-color: #27ddbb;
+  --primary-button-hover-base-color: #00211b;
+
+  --primary-button-active-background-color: #7eeedb;
+  --primary-button-active-border-color: #7eeedb;
+  --primary-button-active-base-color: #00211b;
+
+  --primary-button-focus-background-color: #27ddbb;
+  --primary-button-focus-border-color: #27ddbb;
+  --primary-button-focus-base-color: #00211b;
+}
